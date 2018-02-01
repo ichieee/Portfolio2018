@@ -1,0 +1,295 @@
+/**********CSS RESET***************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*****END OF CSS RESET ***********/
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    position: relative;
+}
+.social-icon{
+  color: #fff;
+}
+.social-icons li{
+  display: inline;
+  margin-left: 10px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook-f {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook-f:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-instagram {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: #bc2a8d;
+}
+#banner{
+	background: url(images/banner.jpg) no-repeat;
+	background-size: cover;
+	padding: 80px 0;
+}
+#banner h1{
+	color: 	#F0FFFF;
+}
+#about{
+  padding-bottom: 30px;
+}
+#about img{
+	margin-top: 30px;
+	border-radius: 100%;
+}
+#about p {
+	color: #F0FFFF;
+	font-style: italic;
+}
+
+/*****GRAPH CSS*****/
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Montserrat:400,700);
+* {
+  box-sizing: border-box; }
+
+.wrap{
+  margin-top: 35px;
+  padding-left: 20px;
+}
+
+#about h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  padding: .5em 0;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #dadada;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #F0FFFF; }
+
+#about ul li {
+  line-height: 2;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: .85em;
+  text-transform: uppercase;
+  clear: both; }
+ #about ul li:before {
+    content: "\2023";
+    padding: 0 1em 0 0; }
+
+.bar {
+  background: #e74c3c;
+  width: 0;
+  margin: .25em 0;
+  color: #fff;
+  position: relative;
+  transition: width 2s, background .2s;
+  -webkit-transform: translate3d(0, 0, 0);
+  clear: both; }
+  .bar:nth-of-type(2n) {
+    background: #ed7669; }
+  .bar .label {
+    font-size: .75em;
+    padding: 1em;
+    background: #3d3d3d;
+    width: 8em;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif; }
+    .bar .label.light {
+      background: #575757; }
+
+.count {
+  position: absolute;
+  right: .25em;
+  top: .75em;
+  padding: .15em;
+  font-size: .75em;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif; }
+
+
+/***END OF GRAPH CSS**/
+
+#works {
+  background-color: #575757;
+  padding-bottom: 30px;
+}
+#works img{
+  margin-top: 30px;
+}
+#works h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dadada;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #F0FFFF; }
+#works a{
+  color: #ef6eae;
+  text-decoration: none;
+}
+#works a:hover{
+  color: #fff;
+}
+
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+  -webkit-box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0); }
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+    box-shadow: 0 0 0 0 var(--hover); } }
+
+@keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--hover);
+    box-shadow: 0 0 0 0 var(--hover); } }
+
+.pulse {
+  --color: #ef6eae;
+  --hover: #ef8f6e; }
+
+#works button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s; }
+  #works button:hover{
+    border-color: var(--hover);
+    color: #fff; }
+
+#works button:focus {
+    border-color: var(--hover);
+    color: #fff; }
+
+#works button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em; }
+
+#gallery{
+  padding: 30px 0;
+}
+.resize{
+  width: 100%;
+  height: 200px;
+}
+#gallery img{
+   transition: all 0.3s;
+}
+#gallery img:hover{
+  transform: scale(1.1);
+}
+footer{
+  background-color: #575757;
+  padding: 10px 0;
+  color: white;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    .social-icons li{
+        display: inline;
+        margin-left: 10px;
+        float: left;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {}
